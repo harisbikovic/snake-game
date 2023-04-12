@@ -1,0 +1,42 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 178b1db..c826f15 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,2 +1,35 @@[m
+[31m-# snakeGame[m
+[31m-Snake game written using Python in making.[m
+[32m+[m[32m# Snake Game[m
+[32m+[m
+[32m+[m[32mThis is a simple implementation of the classic Snake game using Python's Turtle module.[m
+[32m+[m
+[32m+[m[32m![A demo of the Snake game](https://imgur.com/a/Dob2UdH)[m
+[32m+[m
+[32m+[m[32m## Description[m
+[32m+[m
+[32m+[m[32mThe game consists of a player-controlled snake that moves around the screen, trying to eat food pellets that appear at random locations. Each time the snake eats a pellet, it grows longer, making it harder to avoid running into itself. The game ends when the snake collides with itself or with the screen's border.[m
+[32m+[m
+[32m+[m[32m## How to Play[m
+[32m+[m
+[32m+[m[32mThe player uses the arrow keys to move the snake around the screen. The snake will move continuously in the direction it's facing until it hits a wall or a body segment. The objective is to eat as much food as possible without crashing.[m
+[32m+[m
+[32m+[m[32m## Features[m
+[32m+[m
+[32m+[m[32m- Snake movement using arrow keys[m
+[32m+[m[32m- Randomly generated food pellets[m
+[32m+[m[32m- Snake grows longer as it eats food[m
+[32m+[m[32m- Score counter that increases with each food pellet eaten[m
+[32m+[m[32m- Game over screen when the snake collides with itself or the border[m
+[32m+[m
+[32m+[m[32m## Installation[m
+[32m+[m
+[32m+[m[32m1. Clone the repository: `git clone https://github.com/<username>/snakeGame.git`[m
+[32m+[m[32m2. Install the required modules: `pip install -r requirements.txt`[m
+[32m+[m[32m3. Run the game: `python main.py`[m
+[32m+[m
+[32m+[m[32m## Credits[m
+[32m+[m
+[32m+[m[32mThis project was created by [Your Name].[m
+[32m+[m
+[32m+[m[32m## License[m
+[32m+[m
+[32m+[m[32mThis project is licensed under the [MIT License](https://opensource.org/licenses/MIT).[m
