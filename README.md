@@ -2,7 +2,7 @@
 
 This is a simple implementation of the classic Snake game using Python's Turtle module.
 
-![A demo of the Snake game](https://imgur.com/a/Dob2UdH)
+![snake](https://user-images.githubusercontent.com/108518278/231439077-407c9838-bf7c-4b20-a825-629a18977fb8.gif)
 
 ## Description
 
@@ -25,10 +25,6 @@ The player uses the arrow keys to move the snake around the screen. The snake wi
 1. Clone the repository: `git clone https://github.com/<username>/snakeGame.git`
 2. Install the required modules: `pip install -r requirements.txt`
 3. Run the game: `python main.py`
-
-## Credits
-
-This project was created by [Your Name].
 
 ## License
 
