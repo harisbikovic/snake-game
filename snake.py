@@ -54,3 +54,14 @@ class Snake:
         # Snake is moving downwards
         if self.head.ycor() < self.turtles_list[1].ycor():
             self.head.left(90)
+
+    def extend(self):
+        self.add_segment(self.turtles_list[-1].position())    # Get the last segment's position and add new one there
+
+    def add_segment(self, position):
+        turtle = Turtle("square")
+        turtle.color("white")
+        turtle.penup()
+        # turtle.shapesize(1.0, 1.0)
+        turtle.setposition(position)
+        self.turtles_list.append(turtle)
