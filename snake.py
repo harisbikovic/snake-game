@@ -65,3 +65,10 @@ class Snake:
         # turtle.shapesize(1.0, 1.0)
         turtle.setposition(position)
         self.turtles_list.append(turtle)
+
+    def reset(self):
+        for turtle in self.turtles_list:
+            turtle.goto(1000, 1000)   # Go outside the screen. Otherwise, snake segments stay onscreen
+        self.turtles_list.clear()    # Deletes all the turtles from the list (snake vanishes from memory)
+        self.create_snake()    # Initialize snake again
+        self.head = self.turtles_list[0]
