@@ -26,6 +26,3 @@ The player uses the arrow keys to move the snake around the screen. The snake wi
 2. Install the required modules: `pip install -r requirements.txt`
 3. Run the game: `python main.py`
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
