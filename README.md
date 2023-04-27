@@ -1,6 +1,6 @@
-# Snake Game
+# Snake
 
-This is a simple implementation of the classic Snake game using Python's Turtle module.
+This is an implementation of the classic Snake game using Python's Turtle module.
 
 ![snake](https://user-images.githubusercontent.com/108518278/231439077-407c9838-bf7c-4b20-a825-629a18977fb8.gif)
 
