@@ -22,7 +22,7 @@ The player uses the arrow keys to move the snake around the screen. The snake wi
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/<username>/snakeGame.git`
+1. Clone the repository: `git clone https://github.com/<username>/snake-game.git`
 2. Install the required modules: `pip install -r requirements.txt`
 3. Run the game: `python main.py`
 
